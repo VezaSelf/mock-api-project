@@ -6,7 +6,7 @@
     "host": "localhost",
     "port": 5432,
     "username": "testuser",
-    "password": "example_password_123"
+    "password": "example_password_1234"
   },
   "cache": {
     "enabled": true,
