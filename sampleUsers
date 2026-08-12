@@ -1,0 +1,6 @@
+id,name,email,department
+1,Alice Johnson,alice@example.com,Engineering
+2,Bob Smith,bob@example.com,Finance
+3,Charlie Lee,charlie@example.com,Marketing
+4,Diana Clark,diana@example.com,HR
+5,Ethan Brown,ethan@example.com,Operations
