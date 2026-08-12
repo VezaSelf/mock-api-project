@@ -1,0 +1,15 @@
+{
+  "application": "demo-app",
+  "version": "1.0.0",
+  "environment": "development",
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "username": "testuser",
+    "password": "example_password_123"
+  },
+  "cache": {
+    "enabled": true,
+    "ttl": 3600
+  }
+}
