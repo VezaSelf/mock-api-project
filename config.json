@@ -1,18 +1,19 @@
-{
-  "application": "demo-app",
-  "version": "1.0.0",
-  "environment": "development",
-  "database": {
-    "host": "localhost",
-    "port": 5432,
-    "username": "testuser",
-    "password": "example_password_123"
-  },
-  "credentials": {
-    "private_key": "-----BEGIN RSA PRIVATE KEY-----\nFAKE_TEST_KEY\n-----END RSA PRIVATE KEY-----"
-  },
-  "cache": {
-    "enabled": true,
-    "ttl": 3600
-  }
-}
+application: demo-app
+version: 1.0.0
+environment: development
+
+database:
+  host: localhost
+  port: 5432
+  username: testuser
+  password: example_password_123
+
+credentials:
+  private_key: |
+    -----BEGIN RSA PRIVATE KEY-----
+    FAKE_TEST_KEY
+    -----END RSA PRIVATE KEY-----
+
+cache:
+  enabled: true
+  ttl: 3600
