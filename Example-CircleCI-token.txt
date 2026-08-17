@@ -1,2 +1,1 @@
-curl https://circleci.com/api/v2/me \
-  --header "Circle-Token: 12345678-90ab-cdef-1234-567890abcdef"
+Circle-Token: 12345678-90ab-cdef-1234-567890abcdef
